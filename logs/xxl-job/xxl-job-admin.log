@@ -1,0 +1,16 @@
+2020-10-10 01:14:46,803 WARN [xxl-job, admin JobScheduleHelper#scheduleThread] c.x.j.a.c.thread.JobScheduleHelper [JobScheduleHelper.java : 87] >>>>>>>>>>> xxl-job, schedule misfire, jobId = 1
+2020-10-10 03:15:00,804 WARN [HikariCP housekeeper] com.zaxxer.hikari.pool.HikariPool [HikariPool.java : 787] HikariCP - Thread starvation or clock leap detected (housekeeper delta=4h27s451ms).
+2020-10-10 07:15:28,475 WARN [HikariCP housekeeper] com.zaxxer.hikari.pool.HikariPool [HikariPool.java : 787] HikariCP - Thread starvation or clock leap detected (housekeeper delta=4h27s673ms).
+2020-10-10 08:15:41,522 WARN [HikariCP housekeeper] com.zaxxer.hikari.pool.HikariPool [HikariPool.java : 787] HikariCP - Thread starvation or clock leap detected (housekeeper delta=1h13s47ms).
+2020-10-10 08:16:42,599 WARN [HikariCP housekeeper] com.zaxxer.hikari.pool.HikariPool [HikariPool.java : 779] HikariCP - Retrograde clock change detected (housekeeper delta=29s639ms), soft-evicting connections from pool.
+2020-10-10 17:20:18,624 INFO [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 218] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-10 17:20:19,647 INFO [xxl-job, admin JobScheduleHelper#scheduleThread] c.x.j.a.c.thread.JobScheduleHelper [JobScheduleHelper.java : 203] >>>>>>>>>>> xxl-job, JobScheduleHelper#scheduleThread stop
+2020-10-10 17:20:20,002 INFO [xxl-job, admin JobScheduleHelper#ringThread] c.x.j.a.c.thread.JobScheduleHelper [JobScheduleHelper.java : 264] >>>>>>>>>>> xxl-job, JobScheduleHelper#ringThread stop
+2020-10-10 17:20:20,651 INFO [SpringContextShutdownHook] c.x.j.a.c.thread.JobScheduleHelper [JobScheduleHelper.java : 351] >>>>>>>>>>> xxl-job, JobScheduleHelper stop
+2020-10-10 17:20:20,653 INFO [xxl-job, admin JobLogReportHelper] c.x.j.a.c.thread.JobLogReportHelper [JobLogReportHelper.java : 132] >>>>>>>>>>> xxl-job, job log report thread stop
+2020-10-10 17:20:20,654 INFO [SpringContextShutdownHook] c.x.j.a.c.t.JobTriggerPoolHelper [JobTriggerPoolHelper.java : 60] >>>>>>>>> xxl-job trigger thread pool shutdown success.
+2020-10-10 17:20:20,656 INFO [xxl-job, admin JobLosedMonitorHelper] c.x.j.a.c.t.JobLosedMonitorHelper [JobLosedMonitorHelper.java : 75] >>>>>>>>>>> xxl-job, JobLosedMonitorHelper stop
+2020-10-10 17:20:20,656 INFO [xxl-job, admin JobFailMonitorHelper] c.x.j.a.c.t.JobFailMonitorHelper [JobFailMonitorHelper.java : 90] >>>>>>>>>>> xxl-job, job fail monitor thread stop
+2020-10-10 17:20:20,657 INFO [xxl-job, admin JobRegistryMonitorHelper] c.x.j.a.c.t.JobRegistryMonitorHelper [JobRegistryMonitorHelper.java : 93] >>>>>>>>>>> xxl-job, job registry monitor thread stop
+2020-10-10 17:20:20,662 INFO [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 350] HikariCP - Shutdown initiated...
+2020-10-10 17:20:20,673 INFO [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 352] HikariCP - Shutdown completed.
